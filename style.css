@@ -1,0 +1,23 @@
+.gomb1:hover {
+    background-color: blueviolet;
+    color: black !important;
+    border-radius: 20px;
+}
+
+.gomb2:hover {
+    background-color: red;
+    color: black !important;
+    border-radius: 20px;
+}
+
+.gomb3:hover {
+    background-color: darkcyan;
+    color: black !important;
+    border-radius: 20px;
+}
+
+.dcg:hover {
+    background-color: RGB(88, 101, 242);
+    color: black !important;
+    border-radius: 20px;
+}
