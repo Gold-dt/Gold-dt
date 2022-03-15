@@ -21,3 +21,25 @@
     color: black !important;
     border-radius: 20px;
 }
+
+.navbar-nav .hover {
+    color: red !important;
+}
+
+.kep {
+    width: 40%;
+    float: right;
+}
+
+#test {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+.navll {
+    border: black !important;
+}
+
+#k2 {
+    padding-top: 10px;
+}

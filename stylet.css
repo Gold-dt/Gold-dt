@@ -1,0 +1,72 @@
+header {
+    background-position: center center;
+}
+
+h1 {
+    background-color: rgba(248, 248, 248, 0.75);
+    margin-top: 80px;
+    padding-left: 11rem;
+    font-weight: bold;
+    font-family: Verdana;
+    color: green;
+}
+
+h2 {
+    color: green;
+    border-left: 3px dotted green;
+    font-variant: small-caps;
+    padding: 5px 15px 5px 15px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #894f3b;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+li {
+    list-style-image: url(../img/lemon2.png);
+    float: left;
+    margin-left: 40px;
+}
+
+td,
+th {
+    text-align: center;
+}
+
+thead>tr:first-child {
+    letter-spacing: 2px;
+}
+
+.navbar {
+    background-color: #fd8800;
+    padding: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.t {
+    padding: 0px !important;
+    padding-left: 0px !important;
+    background-color: #fd8800;
+}
+
+.br {
+    background-image: url(/img/bg2.jpg);
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+li::marker {
+    background-image: url(/img/lemon2.png);
+}
+
+p {
+    text-indent: 15px;
+    text-align: justify;
+}
+
+tr:nth-child(2) {
+    font-weight: bold;
+}

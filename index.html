@@ -18,29 +18,48 @@
     <title>Gold dt</title>
 </head>
 
-<body>
+<body id="test">
 
     <div class="p-5 bg-black text-white text-center">
         <h1>Gold dt</h1>
         <p>Néhány dologot megtalálhatsz rólam itt !</p>
     </div>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <button type="button" class="text-light btn btn-gray">Tevékenységeim</button>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-primary gomb1" href="https://www.twitch.tv/gold_dt" target=_blank>Twitch</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-danger gomb2" href="https://www.youtube.com/channel/UCl0Zxx9XwXRC07geBiW5Qig" target="_blank">Youtube</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-info gomb3" href="/server.html">Szervereim</a>
-                </li>
-            </ul>
+            <a class="navbar-brand nav-link disabled" href="#">Információk</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning disabled" href="serverek.html">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="https://www.twitch.tv/gold_dt" target="_blank">Twitch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="https://www.youtube.com/channel/UCl0Zxx9XwXRC07geBiW5Qig" target="_blank">Youtube</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Gaming
+                </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-info bg-dark" href="Kedvenceim.html">Kedvenc Játékaim</a></li>
+                            <li><a class="dropdown-item text-warning bg-dark" href="serverek.html">Serverek</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item bg-light" href="discord.html">Discord</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary navbar-toggler-left" href="admin.html">Admin</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
