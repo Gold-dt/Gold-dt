@@ -43,5 +43,10 @@
 #k2 {
     padding-top: 10px;
 }
+
 #texter {
-   text-decoration: none;}
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
