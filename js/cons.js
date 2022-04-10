@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             default:
                 clearInput();
-                addTextToResults("<p><i>parancs " + "<b>" + textInputValue + "</b>" + " nem található. Írd be `<b>Help</b>` hogy lásd összes parancsot.</i></p>");
+                addTextToResults("<p><i>parancs " + "<b>" + textInputValue + "</b>" + " nem található. Írd be `<b>Help</b>` hogy lásd az összes parancsot.</i></p>");
                 break;
         }
     }

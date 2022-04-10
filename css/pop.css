@@ -11,7 +11,7 @@ body {
 }
 
 .popup {
-    background-color: #ffffff;
+    background: linear-gradient(to right, #10C8FF, #10FF10);
     width: 80%;
     padding: 30px 40px;
     position: fixed;
@@ -30,7 +30,7 @@ body {
     background-color: transparent;
     font-size: 30px;
     color: #ffffff;
-    background: #03549a;
+    background: #000000;
     border-radius: 100%;
     width: 40px;
     height: 40px;
