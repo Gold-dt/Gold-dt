@@ -55,7 +55,7 @@
     position: fixed;
     width: 50px;
     height: 50px;
-    background: #27ae60;
+    background: linear-gradient(to right, #ff10f3, #ff1010);
     bottom: 40px;
     right: 50px;
     text-decoration: none;
@@ -63,4 +63,9 @@
     line-height: 50px;
     color: white;
     font-size: 22px;
+    border-radius: 20px;
+}
+
+:hover.gotopbtn {
+    color: rgb(73, 3, 62);
 }
