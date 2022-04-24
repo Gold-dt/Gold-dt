@@ -1,93 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900';
-body,
-html {
-    min-height: 100%;
-}
-
 body {
-    background-image: url("../img/bg-main.jpg");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    font-family: "Lato", sans-serif;
-}
-
-.container-fluid {
     background: #25272C;
-    min-height: 100%;
-    padding: 0;
-}
-
-.header {
-    height: 550px;
-    width: 100%;
-    background: url("../img/top.jpg");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
-
-.header:before {
-    content: "";
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 550px;
-    background-image: linear-gradient(45deg, rgba(101, 128, 233, 0.73) 0%, #1E6DB6 100%);
-}
-
-.topmenu {
-    position: relative;
-    z-index: 20;
-    margin-top: 20px;
-}
-
-.topmenu a {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 28px;
-    padding: 0 27px;
-    text-decoration: none;
-}
-
-.topmenu .line {
-    display: block;
-    width: 45px;
-    border-bottom: 1px solid #fff;
-}
-
-.server-info {
-    margin-bottom: 150px;
-    position: relative;
-    z-index: 20;
-}
-
-.inner {
-    padding: 40px;
-}
-
-section .image {
-    width: 300px;
-    min-height: 480px;
-    margin: 40px;
-    background-position: center center;
-    background-size: cover;
-}
-
-section .image.image1 {
-    background-image: url("../img/example.jpg");
-}
-
-section .image.image2 {
-    background-image: url("../img/example-2.jpg");
-}
-
-section .text {
-    padding: 40px;
-    max-width: 700px;
 }
 
 section .text p {
@@ -97,14 +9,8 @@ section .text p {
 }
 
 section .text p b {
-    color: #fff;
+    color: rgb(25, 144, 223);
     font-weight: 700;
-}
-
-section .text ul {
-    color: #fff;
-    margin: 0;
-    padding: 0 0 0 20px;
 }
 
 section .text ul li {
@@ -115,107 +21,44 @@ section .text ul li {
     padding: 0;
 }
 
-section .text ul li b {
-    color: #fff;
-    font-weight: 700;
+#ú {
+    color: rgb(255, 255, 255) !important;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-section.discord-widget {
-    padding: 40px;
-    width: 100%;
+.q {
+    background-color: white;
 }
 
-section.discord-widget iframe {
-    height: 500px;
-    width: 100%;
+.g {
+    background-color: #5865F2;
 }
 
-section.join {
-    padding: 40px;
+:hover.btt {
+    color: #23272A;
 }
 
-section.join .btn-pill {
-    margin: 30px;
-}
-
-section.join-fluid .line {
-    border-bottom: 1px solid #fff;
-}
-
-.footer {
-    padding: 40px;
-    background-color: #25272C;
-    background-image: linear-gradient(45deg, rgba(101, 128, 233, 0.66) 0%, #1E3FB6 100%);
-    line-height: 24px;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 300;
-}
-
-.footer .block {
-    min-height: 200px;
-    margin-right: 80px;
-}
-
-.footer p {
-    max-width: 500px;
-    padding-top: 40px;
-    margin-bottom: 0;
-}
-
-h1 {
-    font-size: 68px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: 86px;
-    margin: 0 0 35px 0;
-    padding: 0;
-}
-
-h2 {
-    font-size: 48px;
-    line-height: 57px;
-    font-weight: 900;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0 0 40px 0;
-    padding: 0;
-}
-
-h3 {
-    font-size: 36px;
-    line-height: 44px;
-    color: #fff;
-    font-weight: 900;
-    padding: 0;
-    margin-bottom: 6px;
-}
-
-.btn-pill {
-    height: 50px;
-    padding: 0 100px;
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.28);
-    border-radius: 100px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-    position: relative;
-    transition: all 300ms ease;
-    bottom: 0;
-}
-
-.btn-pill:hover {
-    bottom: 10px;
-    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.28);
-}
-
-.btn-pill.white {
-    background: #fff;
-    color: #4360AE;
-}
-
-a.links-suppressor,
-.links-suppressor a {
+.btt {
+    background-color: #5663F7 !important;
+    color: black;
     text-decoration: none;
+    border-radius: 50px;
+    border-width: 5px 20px !important;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
 }
+
+.btk {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    width: 70%;
+    padding: 20px 0 20px 0;
+    background: linear-gradient(90deg, #5663F7, #55e7fc);
+}
+
+:hover.btk {}
