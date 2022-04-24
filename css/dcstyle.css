@@ -1,22 +1,22 @@
 body {
-    background: #25272C;
+    background: #25272C !important;
 }
 
 section .text p {
     font-size: 18px;
     line-height: 26px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 section .text p b {
-    color: rgb(25, 144, 223);
+    color: rgb(25, 144, 223) !important;
     font-weight: 700;
 }
 
 section .text ul li {
     font-size: 18px;
     line-height: 26px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5) !important;
     margin: 0;
     padding: 0;
 }
@@ -28,20 +28,20 @@ section .text ul li {
 }
 
 .q {
-    background-color: white;
+    background-color: white !important;
 }
 
 .g {
-    background-color: #5865F2;
+    background-color: #5865F2 !important;
 }
 
 :hover.btt {
-    color: #23272A;
+    color: #23272A !important;
 }
 
 .btt {
     background-color: #5663F7 !important;
-    color: black;
+    color: black !important;
     text-decoration: none;
     border-radius: 50px;
     border-width: 5px 20px !important;
@@ -52,13 +52,13 @@ section .text ul li {
 }
 
 .btk {
-    color: white;
+    color: white !important;
     text-transform: uppercase;
     text-align: center;
     margin: 50px 0 50px 0;
     width: 70%;
     padding: 20px 0 20px 0;
-    background: linear-gradient(90deg, #5663F7, #55e7fc);
+    background: linear-gradient(90deg, #5663F7, #55e7fc) !important;
 }
 
 :hover.btk {}
