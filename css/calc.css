@@ -4,6 +4,8 @@
     min-height: 400px;
     box-shadow: 0 8px 50px -7px black;
     background: #3A4655;
+    padding-top: 10px !important;
+    margin-top: -200px;
 }
 
 #fo {
@@ -59,4 +61,10 @@
 
 .gombok button:hover {
     background: #3e4b5c;
+}
+
+.háttér {
+    background: linear-gradient(to right, #10C8FF, #10FF10);
+    width: 100%;
+    height: 300px;
 }
