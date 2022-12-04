@@ -1,0 +1,62 @@
+.kijelző {
+    width: 275px;
+    margin: auto;
+    min-height: 400px;
+    box-shadow: 0 8px 50px -7px black;
+    background: #3A4655;
+}
+
+#fo {
+    padding: 1rem;
+}
+
+#fo {
+    font-size: 1.3rem;
+    text-align: right;
+    color: #727B86;
+    padding-bottom: .5rem;
+}
+
+#regi {
+    font-size: 2rem;
+    text-align: right;
+    color: #fff;
+}
+
+.gombok {
+    display: table;
+}
+
+.gombok button {
+    display: table-cell;
+    width: 25%;
+    background: #425062;
+    color: #fff;
+    height: 65px;
+    font-size: 1.3rem;
+    border: none;
+    border-color: #3C4857;
+    border-width: 1px 1px 0px 0;
+    border-style: solid;
+}
+
+.gombok button.ac {
+    color: #ff7665;
+}
+
+.gombok button.opt {
+    color: #ffbc56;
+}
+
+.gombok button:nth-child(4n) {
+    border-right: none;
+}
+
+.gombok button:active {
+    position: relative;
+    top: 1px;
+}
+
+.gombok button:hover {
+    background: #3e4b5c;
+}
