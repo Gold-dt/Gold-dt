@@ -1,0 +1,40 @@
+.bgs {
+    background-image: url(img/nissan-gtr-side-wqhd-1440p-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.g {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+body {
+    background-color: gray !important;
+}
+
+.b {
+    background-color: rgb(93, 158, 158);
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.f {
+    color: whitesmoke !important;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.tori {
+    background-color: rgba(0, 0, 0, 0.295) !important;
+    color: white !important;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black !important;
+}
