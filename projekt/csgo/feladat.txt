@@ -1,0 +1,7 @@
+main oldalt befelyezni:
+- idővonal első csgo mostaniig
+- atchivment-ekrő lszóló weboldal
+- befelyezni a pályákat 
+* a mérettel foglalkozni kell mert túl lógnak
+- csgo történetét kiírni
+
